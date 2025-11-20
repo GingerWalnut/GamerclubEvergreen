@@ -1,1 +1,1 @@
-# GamerclubEvergreen
+The Modpack for the Gamerclub Evergreen Server
