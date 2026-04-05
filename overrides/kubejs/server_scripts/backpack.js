@@ -3,8 +3,6 @@ RecipeViewerEvents.addEntries('item', event => {
 })
 
 ServerEvents.recipes(event => {
-  // You can replace `event` with any name you like, as
-  // long as you change it inside the callback too!
 
   event.shaped(
     Item.of('minecraft:bundle', 1), 
