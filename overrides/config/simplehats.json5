@@ -5,7 +5,7 @@
 		"allowHatInHelmetSlot": false,
 		"entityLoot": {
 			"enableMobLoot": true,
-			"entityNoneWeight": 200,
+			"entityNoneWeight": 4000,
 			"entityCommonWeight": 20,
 			"entityUncommonWeight": 15,
 			"entityRareWeight": 10,
@@ -13,7 +13,7 @@
 		},
 		"chestLoot": {
 			"enableChestLoot": true,
-			"chestNoneWeight": 3000,
+			"chestNoneWeight": 150,
 			"chestCommonWeight": 20,
 			"chestUncommonWeight": 15,
 			"chestRareWeight": 10,
