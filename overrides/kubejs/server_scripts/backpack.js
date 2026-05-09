@@ -1,4 +1,4 @@
- RecipeViewerEvents.removeEntries('item', event => {
+RecipeViewerEvents.removeEntries('item', event => {
 	event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier')
 	event.remove('sophisticatedbackpacks:stack_upgrade_tier_1')
 	event.remove('sophisticatedbackpacks:stack_upgrade_tier_2')
