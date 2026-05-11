@@ -1,6 +1,6 @@
 RecipeViewerEvents.removeEntries('item', event => {
-	event.remove("kubejs:incomplete_steel_ingot")
- })
+    event.remove("kubejs:incomplete_steel_ingot")
+})
 
 ServerEvents.recipes(event => {
   event.remove({id:"createbigcannons:mixing/alloy_nethersteel_cast_iron"})
