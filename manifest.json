@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Evergreen S1",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "",
   "files": [
     {
@@ -431,7 +431,7 @@
     },
     {
       "projectID": 245506,
-      "fileID": 7789741,
+      "fileID": 8351971,
       "required": true
     },
     {
@@ -461,12 +461,12 @@
     },
     {
       "projectID": 1466643,
-      "fileID": 7828748,
+      "fileID": 8351228,
       "required": true
     },
     {
       "projectID": 1332665,
-      "fileID": 7639224,
+      "fileID": 8186861,
       "required": true
     },
     {
