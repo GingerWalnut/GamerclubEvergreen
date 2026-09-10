@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
   const incomplete = "kubejs:incomplete_steel_ingot"
   event.recipes.create.sequenced_assembly(
     [CreateItem.of("createbigcannons:steel_ingot", 1)],
-    "minecraft:iron_ingot",
+    "createbigcannons:cast_iron_ingot",
     [
         event.recipes.create.deploying(incomplete, [incomplete, ["malum:coal_fragment", "malum:charcoal_fragment"]]),
         event.recipes.create.pressing(incomplete, incomplete),

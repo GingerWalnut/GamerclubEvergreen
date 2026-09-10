@@ -10,4 +10,8 @@ event
         .matchAttacker({entityType: "minecraft:skeleton"}).withWeight(1))
     .addEntry(LootEntry.of("betterend:music_disc_eo_dracona")
         .matchAttacker({entityType: "minecraft:skeleton"}).withWeight(1))
+    .addEntry(LootEntry.of("betterend:music_disc_ender_hollow")
+        .matchAttacker({entityType: "minecraft:skeleton"}).withWeight(1))
+    .addEntry(LootEntry.of("betterend:music_disc_moonlit_undercurrents")
+        .matchAttacker({entityType: "minecraft:skeleton"}).withWeight(1))
 })
