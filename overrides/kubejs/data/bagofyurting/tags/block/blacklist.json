@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+  	"#minecraft:wither_immune",
+  	"#minecraft:portals",
+  	{
+  		"id": "#c:relocation_not_supported",
+  		"required": false
+  	},
+	"minecraft:spawner",
+	"#c:budding_blocks"
+  ]
+}
