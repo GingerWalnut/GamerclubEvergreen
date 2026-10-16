@@ -1,7 +1,5 @@
 LootJS.lootTables(event => {
-event
-    .getLootTable("minecraft:entities/shulker")
-    .createPool()    
+event.getLootTable("minecraft:entities/shulker").createPool()    
     .addEntry(LootEntry.of("betterend:music_disc_strange_and_alien")
         .matchAttacker({entityType: "minecraft:skeleton"}).withWeight(1))
     .addEntry(LootEntry.of("betterend:music_disc_grasping_at_stars")
@@ -14,4 +12,16 @@ event
         .matchAttacker({entityType: "minecraft:skeleton"}).withWeight(1))
     .addEntry(LootEntry.of("betterend:music_disc_moonlit_undercurrents")
         .matchAttacker({entityType: "minecraft:skeleton"}).withWeight(1))
+event.getLootTable("minecraft:entities/wandering_trader").createPool()    
+    .addEntry(LootEntry.of("abyssal_decor:dusty_cd")
+        .matchAttacker({entityType: "minecraft:skeleton"}).withWeight(1))
+    .addEntry(LootEntry.of("abyssal_decor:fallen_barrier_block")
+        .matchAttacker({entityType: "minecraft:skeleton"}).withWeight(1))
+})
+
+ServerEvents.tags("item", event => {
+    event.add("c:music_discs", "abyssal_decor:dusty_cd")
+    event.remove("minecraft:music_discs", "abyssal_decor:dusty_cd")
+    event.add("c:music_discs", "abyssal_decor:fallen_barrier_block")
+    event.remove("minecraft:music_discs", "abyssal_decor:fallen_barrier_block")
 })

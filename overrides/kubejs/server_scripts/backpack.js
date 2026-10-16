@@ -11,6 +11,18 @@ RecipeViewerEvents.removeEntries('item', event => {
 	event.remove('sophisticatedbackpacks:inception_upgrade')
 	event.remove('sophisticatedbackpacks:infinity_upgrade')
 	event.remove('sophisticatedbackpacks:survival_infinity_upgrade')
+
+	event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_1_conversion')
+	event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion')
+	event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_3_conversion')
+	event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_4_conversion')
+	event.remove('sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_2_conversion')
+	event.remove('sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_3_conversion')
+	event.remove('sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_4_conversion')
+	event.remove('sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_3_conversion')
+	event.remove('sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_4_conversion')
+	event.remove('sophisticatedbackpacks:stack_upgrade_tier_3_to_tier_4_conversion')
+
  })
 
 
@@ -26,6 +38,17 @@ ServerEvents.recipes(event => {
     event.remove({output:'sophisticatedbackpacks:stack_downgrade_tier_3'})
     event.remove({output:'sophisticatedbackpacks:inception_upgrade'})
 
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_1_conversion'})
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_2_conversion'})
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_3_conversion'})
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_starter_tier_to_tier_4_conversion'})
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_2_conversion'})
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_3_conversion'})
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_tier_1_to_tier_4_conversion'})
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_3_conversion'})
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_tier_2_to_tier_4_conversion'})
+    event.remove({output:'sophisticatedbackpacks:stack_upgrade_tier_3_to_tier_4_conversion'})
+
     event.remove({output:'sophisticatedbackpacks:backpack'})
     event.shaped(
         Item.of('sophisticatedbackpacks:backpack', 1),
@@ -36,6 +59,6 @@ ServerEvents.recipes(event => {
          B:'minecraft:leather',
          C:'minecraft:shulker_shell'}
     )
-   event.remove({id:'sophisticatedbackpacks:iron_backpack_from_copper'});
+   event.remove({id:'sophisticatedbackpacks:iron_backpack_from_copper'})
 
 });

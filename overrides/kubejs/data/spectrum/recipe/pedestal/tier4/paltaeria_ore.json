@@ -1,0 +1,31 @@
+{
+  "type": "spectrum:pedestal",
+  "time": 400,
+  "tier": "complex",
+  "colors": {
+    "spectrum:white": 4
+  },
+  "experience": 0.5,
+  "pattern": [
+    "MTM",
+    "TET",
+    "MTM"
+  ],
+  "key": {
+    "M": {
+      "item": "spectrum:moonstone_shard"
+    },
+    "T": {
+      "item": "betterend:thallasium_ore"
+    },
+    "E": {
+      "item": "betterend:ender_ore"
+    }
+  },
+  "result": {
+    "id": "spectrum:paltaeria_ore",
+    "count": 1
+  },
+  "required_advancement": "spectrum:milestones/reveal_paltaeria",
+  "disable_yield_upgrades": true
+}

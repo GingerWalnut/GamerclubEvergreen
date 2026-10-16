@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Evergreen S2",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "",
   "files": [
     {
@@ -566,7 +566,7 @@
     },
     {
       "projectID": 1312371,
-      "fileID": 8673825,
+      "fileID": 9043865,
       "required": true
     },
     {
@@ -591,7 +591,7 @@
     },
     {
       "projectID": 556967,
-      "fileID": 8679750,
+      "fileID": 9021449,
       "required": true
     },
     {
@@ -616,7 +616,7 @@
     },
     {
       "projectID": 656526,
-      "fileID": 8664567,
+      "fileID": 8824216,
       "required": true
     },
     {
@@ -642,6 +642,11 @@
     {
       "projectID": 1567948,
       "fileID": 8582307,
+      "required": true
+    },
+    {
+      "projectID": 1258607,
+      "fileID": 8752438,
       "required": true
     }
   ],

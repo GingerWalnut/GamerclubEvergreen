@@ -8,6 +8,12 @@
   		"required": false
   	},
 	"minecraft:spawner",
-	"#c:budding_blocks"
+	"minecraft:trial_spawner",
+	"minecraft:vault",
+	"dragonsurvival:light_vault",
+	"dragonsurvival:dark_vault",
+	"dragonsurvival:hunter_vault",
+	"#c:budding_blocks",
+	"lootr:containers"
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "name": "book.spectrum.guidebook.idea",
+  "description": "book.kubejs.guidebook.ideas.new_possibilities",
+  "category": "spectrum:enchanting",
+  "hide_while_locked": true,
+  "parents": [],
+  "background_u_index": 0,
+  "background_v_index": 5,
+  "x": -2,
+  "y": -2,
+  "icon": "spectrum:textures/gui/guidebook/icons/idea.png",
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "spectrum:endgame/finish_progression"
+  },
+  "read_by_default": true,
+  "turnin": "spectrum:milestones/unlock_overchanting_with_enchanter",
+  "pages": [
+    {
+      "type": "spectrum:hint",
+      "title": "book.kubejs.guidebook.ideas.new_possibilities",
+      "completion_advancement": "spectrum:triggers/hints/overchanting_page0",
+      "cost": {
+        "item": "spectrum:moonstone_shard",
+        "count": 8
+      },
+      "text": "book.kubejs.guidebook.ideas.overchanting.page0.text"
+    },
+    {
+      "type": "spectrum:hint",
+      "title": "book.spectrum.guidebook.ideas.concise_instructions",
+      "completion_advancement": "spectrum:triggers/hints/overchanting_page1",
+      "cost": {
+        "item": "spectrum:moonstone_shard",
+        "count": 32
+      },
+      "text": "book.kubejs.guidebook.ideas.overchanting.page1.text"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "unlocked_enchanter": {
+      "trigger": "revelationary:advancement_gotten",
+      "conditions": {
+        "advancement_identifier": "spectrum:midgame/build_enchanting_structure"
+      }
+    },
+    "finished_progression": {
+      "trigger": "revelationary:advancement_gotten",
+      "conditions": {
+        "advancement_identifier": "spectrum:endgame/finish_progression"
+      }
+    },
+    "done_create_overchanting": {
+      "trigger": "revelationary:advancement_gotten",
+      "conditions": {
+        "advancement_identifier": "create_enchantment_industry:paradox_fusion"
+      }
+    }
+  }
+}
